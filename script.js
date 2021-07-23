@@ -15,6 +15,7 @@ function negativepric(){
         var p = document.getElementById("principal").value
         if(p<=0){
             alert("Value should be positive")
+            document.getElementById("principal").focus();
         }
     }
 //Function to update the rate scrollbar
